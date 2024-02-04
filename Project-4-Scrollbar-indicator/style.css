@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #009a8b, #5500cc, #66d0c7);
+    font-family: sans-serif;
+}
+
+.text {
+    color: #000;
+    line-height: 10rem;
+    text-align: center;
+}
+
+span {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.2s;
+    width: 150px;
+}
+
+span:hover {
+    transform: scale(1.05);
+}
+
+.indicator {
+    background: linear-gradient(to right, #c9a970, #ac4414, #c90000);
+    height: 20px;
+    border-radius: 4px;
+    width: 10%;
+    position: fixed;
+    top: 0px;
+}
