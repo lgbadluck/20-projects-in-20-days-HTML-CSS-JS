@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    background: linear-gradient(to right, rgb(26, 146, 146), rgb(255, 0, 242));
+    background: linear-gradient(to right, rgb(26, 146, 76), rgb(255, 0, 0));
 }
 
 .letters {
